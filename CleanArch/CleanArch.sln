@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Mvc", "CleanArch.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Domain", "CleanArch.Domain\CleanArch.Domain.csproj", "{98C09960-3D19-4D7E-83A2-A24A9C5B0EDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{70D16638-9D57-4E60-A9FC-B35A69165C54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.Data", "CleanArch.Infra.Data\CleanArch.Infra.Data.csproj", "{70D16638-9D57-4E60-A9FC-B35A69165C54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application", "CleanArch.Application\CleanArch.Application.csproj", "{3130E600-BA1A-4AF3-BCCA-5C404389F454}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{70D16638-9D57-4E60-A9FC-B35A69165C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70D16638-9D57-4E60-A9FC-B35A69165C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70D16638-9D57-4E60-A9FC-B35A69165C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3130E600-BA1A-4AF3-BCCA-5C404389F454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3130E600-BA1A-4AF3-BCCA-5C404389F454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3130E600-BA1A-4AF3-BCCA-5C404389F454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3130E600-BA1A-4AF3-BCCA-5C404389F454}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{2489A4DE-32F0-4011-8CD9-779AE8F4B5A9} = {B8DDD5E8-9E24-422D-83EA-9BD7514205CF}
 		{98C09960-3D19-4D7E-83A2-A24A9C5B0EDA} = {7415B875-CA51-457B-ABA8-BE0873327E79}
 		{70D16638-9D57-4E60-A9FC-B35A69165C54} = {6AE845C2-1BBF-4011-A6ED-E5962B9D0ADF}
+		{3130E600-BA1A-4AF3-BCCA-5C404389F454} = {005F81F7-98B8-435A-9168-B1DDA202D6D5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43A45952-0755-443C-8AEC-4ED2A4859B7B}
